@@ -35,6 +35,10 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.colorish {
+background-color: #99ccff;
+}
+
 *,
 *::before,
 *::after {
@@ -4142,7 +4146,8 @@ input[type="button"].btn-block {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-}
+    background-color:#99ccff;
+    }
 
     .navbar > .container,
     .navbar > .container-fluid {

@@ -22,36 +22,36 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Title = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
+                        Title = "Meet the Mormons",
+                        ReleaseDate = DateTime.Parse("2014-10-10"),
+                        Genre = "Documentary",
                         Price = 7.99M,
-                        Rating = "R",
+                        Rating = "PG",
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
+                        Title = "Ephraim's Rescue",
+                        ReleaseDate = DateTime.Parse("2013-5-31"),
+                        Genre = "History",
                         Price = 8.99M,
-                        Rating = "PG-13",
+                        Rating = "PG",
                     },
 
                     new Movie
                     {
-                        Title = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
+                        Title = "17 Miracles",
+                        ReleaseDate = DateTime.Parse("2011-6-3"),
+                        Genre = "History",
                         Price = 9.99M,
-                        Rating = "PG-13"
+                        Rating = "PG"
                     },
 
                     new Movie
                     {
-                        Title = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
+                        Title = "The Saratov Approach",
+                        ReleaseDate = DateTime.Parse("2013-10-25"),
+                        Genre = "Action",
                         Price = 3.99M,
                         Rating = "PG"
                     }
